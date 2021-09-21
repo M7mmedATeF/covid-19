@@ -1,0 +1,97 @@
+.question {
+    background-color: var(--second-color);
+}
+
+.question .innerQuestions {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.question .innerQuestions .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.question .innerQuestions .left button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 100;
+    width: 100%;
+    border: 2px solid #e7e8ff;
+    transition: 0.3s all ease-in-out;
+}
+
+.question .innerQuestions .left button:hover,
+.question .innerQuestions .left .active {
+    color: var(--pop-text-color);
+    border: 2px solid var(--pop-text-color);
+}
+
+.question .innerQuestions .right .inner {
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: 2px solid #e7e8ff;
+    min-height: 58vh;
+    display: none;
+}
+
+.question .innerQuestions .right .activated {
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: 2px solid #e7e8ff;
+    min-height: 58vh;
+    display: flex;
+}
+
+.question .innerQuestions .right .inner button,
+.question .innerQuestions .right .inner article {
+    width: 100%;
+}
+
+.question .innerQuestions .right .inner .aricleToggleBTN {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: rgb(247, 250, 254);
+    transition: 0.3s all ease-in-out;
+}
+
+.question .innerQuestions .right .inner .active {
+    border: none;
+    color: var(--pop-text-color);
+    background-color: transparent;
+}
+
+.question .innerQuestions .right .inner .article {
+    padding: 20px;
+    display: none;
+}
+
+.question .innerQuestions .right .inner .article span {
+    color: var(--pop-text-color)
+}

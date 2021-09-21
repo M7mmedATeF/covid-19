@@ -1,0 +1,36 @@
+.symptomps {
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.symptomps .cards {
+    padding: 3em 0;
+}
+
+.symptomps .cards .inner div {
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(124, 88, 88, 0.026);
+}
+
+.symptomps .cards .inner div img {
+    width: 80px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 2%;
+    top: -25%;
+    z-index: 2;
+}
+
+.symptomps .cards .inner div h5 {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .symptomps {
+        padding-bottom: 0;
+    }
+}

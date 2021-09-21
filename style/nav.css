@@ -1,0 +1,91 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 2.5vh 7vw 1vh;
+    z-index: 99;
+    background-color: transparent;
+    transition: 0.3s all ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.stickyNav {
+    background-color: var(--second-color);
+}
+
+nav .logo h1 {
+    text-transform: uppercase;
+    color: #394B6C;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+nav .logo h1 span {
+    color: var(--head-third-color);
+}
+
+nav .logo h1 .num19 {
+    color: var(--head-second-color);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li {
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 14px;
+    transition: 0.3s all ease-in-out;
+    font-weight: 590;
+    margin: 0 15px;
+}
+
+nav ul li:last-child {
+    color: var(--second-color);
+    background-color: var(--pop-text-color);
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+nav ul li:last-child:hover {
+    color: #fff;
+    background-color: var(--pop-hover-color);
+}
+
+nav ul li:hover,
+nav ul .active {
+    color: var(--pop-text-color);
+}
+
+nav .mobileNavBTN {
+    display: none;
+}
+
+nav .mobileNavBTN .MNB {
+    font-size: 28px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    nav .mobileNavBTN {
+        display: flex;
+    }
+    nav ul {
+        display: none;
+    }
+}

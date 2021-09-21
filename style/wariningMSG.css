@@ -1,0 +1,37 @@
+.wariningMSG {
+    padding: 3em 0 2em;
+    background-color: var(--second-color);
+}
+
+.wariningMSG .warn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.wariningMSG .warn .warnICON {
+    font-size: 50px;
+    text-align: center;
+    color: var(--pop-text-color);
+}
+
+.wariningMSG .warn .msg span {
+    font-weight: 600;
+    color: var(--pop-text-color);
+}
+
+.wariningMSG .warn .questBTN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .wariningMSG .warn .questBTN {
+        margin-top: 0;
+    }
+    .wariningMSG {
+        padding: 0 0 2em;
+    }
+}

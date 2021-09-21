@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+:root {
+    --main-color: #f7f9fe;
+    --second-color: #fff;
+    --head-color: #394B6C;
+    --head-second-color: #4B6691;
+    --head-third-color: #FF5363;
+    --pop-text-color: #2a81ea;
+    --pop-hover-color: #165fb8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--main-color);
+}
+
+.container-m {
+    width: 90%;
+    margin: auto;
+}
+
+.goUp {
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 20px;
+    background-color: var(--pop-text-color);
+    color: #fff;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.251);
+    display: none;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 769px) {
+    .container-m {
+        width: 100%;
+    }
+}
