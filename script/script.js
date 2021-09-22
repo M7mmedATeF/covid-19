@@ -79,7 +79,7 @@ $(() => {
 
     // Sticky Nav
     $(document).scroll(() => {
-        if ($(window).scrollTop() > 100) {
+        if ($(window).scrollTop() > 20) {
             $('nav').addClass('stickyNav');
             $('.darkMood').fadeIn();
         } else {
@@ -87,4 +87,19 @@ $(() => {
             $('.darkMood').fadeOut();
         }
     })
+
+    // Mobile Nav
+    var BTN = $('.mobileNavBTN .MNB');
+
+    BTN.click(() => {
+        mobileNavBTN();
+    })
+
+    $('#phoneNavClose').click(() => {
+        mobileNavBTN();
+    })
+
+    function mobileNavBTN() {
+        $('.mobileNav').fadeToggle();
+    }
 })

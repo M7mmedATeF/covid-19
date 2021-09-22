@@ -46,7 +46,7 @@ nav ul li {
     cursor: pointer;
     text-transform: capitalize;
     font-size: 14px;
-    transition: 0.3s all ease-in-out;
+    transition: 0.2s all ease-in-out;
     font-weight: 590;
     margin: 0 15px;
 }
@@ -79,6 +79,7 @@ nav .mobileNavBTN .MNB {
     outline: none;
     border-radius: 10px;
     background-color: transparent;
+    color: var(--normal-font-color);
 }
 
 @media only screen and (max-width: 768px) {

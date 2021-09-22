@@ -3,6 +3,10 @@
     color: var(--normal-font-color);
 }
 
+.question * {
+    transition: 0s all ease-in-out;
+}
+
 .question article {
     background-color: transparent;
 }
