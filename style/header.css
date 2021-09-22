@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
     background-image: url('../photos/shape-a.png');
     background-size: cover;
@@ -166,4 +167,174 @@ header section .left .notes {
     header section .left .links a:last-child {
         margin-top: 20px;
     }
+=======
+header {
+    background-image: url('../photos/shape-a.png');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+}
+
+header section .headinner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 140px 0;
+}
+
+header section .right img {
+    width: 100%;
+}
+
+header section .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+header section .left .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header section .left .welcome h2 {
+    color: var(--head-color);
+    font-family: 'Oswald';
+    font-weight: 900;
+    font-size: 90px;
+}
+
+header section .left .welcome div p {
+    font-family: 'Oswald';
+    color: var(--head-third-color);
+    margin: 0px 5px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+header section .left .welcome div p span {
+    font-family: 'Oswald';
+    color: var(--head-color);
+    font-size: 36px;
+}
+
+header section .left .messages {
+    margin: 5vh 0;
+}
+
+header section .left .links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header section .left .links .linkBTN {
+    color: var(--second-color);
+    background-color: var(--pop-text-color);
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+header section .left .links .linkBTN i {
+    margin-left: 10px;
+}
+
+header section .left .links .linkBTN:hover {
+    color: var(--second-color);
+    background-color: var(--pop-text-color);
+}
+
+header section .left .link {
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s all ease-in-out;
+    font-family: 'Oswald';
+    cursor: pointer;
+    letter-spacing: 0px;
+}
+
+header section .left .numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header section .left .numbers .nums p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+header section .left .numbers .nums .num {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+header section .left .notes {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 770px) {
+    header section .headinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 80px 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    header section .left .numbers {
+        flex-direction: column;
+        text-align: center;
+    }
+    header section .left .numbers .nums {
+        margin: 10px 0 0 0;
+    }
+    header section .left .welcome h2 {
+        font-size: 70px;
+    }
+    header section .left .welcome div p {
+        font-size: 18px;
+    }
+    header section .left .welcome div p span {
+        font-size: 28px;
+    }
+    header section .left .messages {
+        margin: 5vh 15px;
+        text-align: center;
+    }
+    header section .left .notes {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    header section .left .links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header section .left .links a:last-child {
+        margin-top: 20px;
+    }
+>>>>>>> 6de624b4bb9f98d687c5dda5d66024f6ba3d0fb0
 }

@@ -1,3 +1,57 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+:root {
+    --main-color: #161616;
+    --second-color: rgb(0, 0, 0);
+    --head-color: #ffffff;
+    --head-second-color: #a7a7a7;
+    --head-third-color: #FF5363;
+    --pop-text-color: #2a81ea;
+    --pop-hover-color: #165fb8;
+    --normal-font-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--normal-font-color);
+    transition: 0.3s all ease-in-out;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--main-color);
+}
+
+.container-m {
+    width: 90%;
+    margin: auto;
+}
+
+.darkMood {
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 20px;
+    background-color: var(--pop-text-color);
+    color: #fff;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.251);
+    z-index: 10;
+}
+
+@media only screen and (max-width: 769px) {
+    .container-m {
+        width: 100%;
+    }
+=======
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 :root {
     --main-color: #f7f9fe;
@@ -48,4 +102,5 @@ body {
     .container-m {
         width: 100%;
     }
+>>>>>>> 6de624b4bb9f98d687c5dda5d66024f6ba3d0fb0
 }

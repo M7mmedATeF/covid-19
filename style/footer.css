@@ -1,0 +1,107 @@
+footer {
+    min-height: 70vh;
+    background-image: linear-gradient(20deg, #18223d, 30%, #151C2E);
+}
+
+footer .layout {
+    background-image: url('../photos/shape-a.png');
+    background-size: cover;
+    width: 100%;
+    min-height: 70vh;
+}
+
+footer .layout hr {
+    border: 1px solid #b2bfe0;
+}
+
+footer .layout .innerFooter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 5em;
+    color: #b2bfe0;
+}
+
+footer .layout .innerFooter>div {
+    padding: 0 10px;
+}
+
+footer .layout .innerFooter .main h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+footer .layout .innerFooter .main h1 i {
+    padding: 0 1px;
+    color: var(--head-third-color);
+}
+
+footer .layout .innerFooter .main p {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+footer .layout .innerFooter .main .links {
+    font-size: 36px;
+}
+
+footer .layout .innerFooter .main .links a {
+    margin: 0 5px;
+    color: #b2bfe0;
+    transition: 0.3s all ease-in-out;
+}
+
+footer .layout .innerFooter .main .links a:hover {
+    color: #768cc4;
+}
+
+footer .layout .innerFooter .qLinks h4 {
+    font-weight: 700;
+    color: #fff;
+}
+
+footer .layout .innerFooter .qLinks .links ul {
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+
+footer .layout .innerFooter .qLinks .links ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+footer .layout .innerFooter .helpLinks .links ul li {
+    padding: 5px 0;
+}
+
+footer .layout .innerFooter .qLinks .links ul li:hover {
+    color: #768cc4;
+}
+
+footer .layout .copyRight {
+    color: #b2bfe0;
+    font-size: 14px;
+    padding: 4em 0;
+}
+
+footer .layout .copyRight span {
+    color: #fff;
+    font-family: 'oswald';
+}
+
+@media only screen and (max-width: 769px) {
+    footer .layout .innerFooter .qLinks h4 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    footer .layout .innerFooter>div {
+        width: 100%;
+    }
+}

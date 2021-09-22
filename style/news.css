@@ -1,0 +1,34 @@
+.news {
+    padding: 4em 0 2em 0;
+}
+
+.news .innerNews {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 3em 0;
+}
+
+.news .innerNews>div {
+    padding: 10px;
+}
+
+.news .innerNews .data {
+    background-color: var(--second-color);
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.053);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.news .innerNews .data .photo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.news .innerNews .data .txt h5 {
+    margin: 1.5em 0 0.5em 0;
+    color: var(--head-color);
+    font-weight: 700;
+}
