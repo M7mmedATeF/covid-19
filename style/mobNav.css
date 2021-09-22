@@ -1,6 +1,6 @@
 .mobileNav {
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 100%;
     position: fixed;
     top: 0%;
     left: 0;

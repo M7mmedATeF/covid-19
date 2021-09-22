@@ -19,7 +19,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     background-color: var(--main-color);
 }
@@ -45,6 +45,8 @@ body {
     z-index: 10;
 }
 
+
+/*
 ::-webkit-scrollbar {
     width: 0.3vw;
 }
@@ -53,26 +55,18 @@ html {
     scroll-behavior: smooth;
 }
 
-
-/* Track */
-
  ::-webkit-scrollbar-track {
     background: var(--main-color);
 }
-
-
-/* Handle */
 
  ::-webkit-scrollbar-thumb {
     background: var(--pop-text-color);
 }
 
-
-/* Handle on hover */
-
  ::-webkit-scrollbar-thumb:hover {
     background: var(--pop-hover-color);
 }
+*/
 
 @media only screen and (max-width: 769px) {
     .container-m {
