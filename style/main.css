@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 :root {
-    --main-color: #161616;
-    --second-color: rgb(0, 0, 0);
-    --head-color: #ffffff;
-    --head-second-color: #a7a7a7;
+    --main-color: #f7f9fe;
+    --second-color: #fff;
+    --head-color: #394B6C;
+    --head-second-color: #4B6691;
     --head-third-color: #FF5363;
     --pop-text-color: #2a81ea;
     --pop-hover-color: #165fb8;
-    --normal-font-color: #fff;
+    --normal-font-color: #000;
 }
 
 * {
@@ -43,6 +43,35 @@ body {
     outline: none;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.251);
     z-index: 10;
+}
+
+::-webkit-scrollbar {
+    width: 0.3vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: var(--main-color);
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--pop-text-color);
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: var(--pop-hover-color);
 }
 
 @media only screen and (max-width: 769px) {

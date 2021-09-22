@@ -90,8 +90,12 @@ $(() => {
 
     // Mobile Nav
     var BTN = $('.mobileNavBTN .MNB');
+    var mobNavBTN = $('.mobileNav ul li');
 
     BTN.click(() => {
+        mobileNavBTN();
+    })
+    mobNavBTN.click(() => {
         mobileNavBTN();
     })
 

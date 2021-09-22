@@ -1,5 +1,5 @@
 $(() => {
-    var isDark = true;
+    var isDark = false;
     var BTN = $('.darkMood');
 
     var colorsNames = ["--main-color",
@@ -11,7 +11,7 @@ $(() => {
         "--normal-font-color",
     ]
 
-    var lightValues = ["#161616",
+    var darkValues = ["#161616",
         "rgb(0, 0, 0)",
         "#ffffff",
         "#a7a7a7",
@@ -20,7 +20,7 @@ $(() => {
         "#fff",
     ]
 
-    var darkValues = ["#f7f9fe",
+    var lightValues = ["#f7f9fe",
         "#fff",
         "#394B6C",
         "#4B6691",
@@ -31,7 +31,7 @@ $(() => {
 
     BTN.click(() => {
         isDark = !isDark;
-        var colorValues = (isDark) ? lightValues : darkValues;
+        var colorValues = (!isDark) ? lightValues : darkValues;
         addColors(colorsNames, colorValues)
     });
 
