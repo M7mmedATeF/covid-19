@@ -1,5 +1,6 @@
 .news {
     padding: 4em 0 2em 0;
+    color: var(--normal-font-color);
 }
 
 .news .innerNews {

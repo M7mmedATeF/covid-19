@@ -3,6 +3,10 @@ footer {
     background-image: linear-gradient(20deg, #18223d, 30%, #151C2E);
 }
 
+footer * {
+    color: #b2bfe0;
+}
+
 footer .layout {
     background-image: url('../photos/shape-a.png');
     background-size: cover;
@@ -20,7 +24,6 @@ footer .layout .innerFooter {
     align-items: flex-start;
     flex-wrap: wrap;
     padding-top: 5em;
-    color: #b2bfe0;
 }
 
 footer .layout .innerFooter>div {
@@ -43,6 +46,7 @@ footer .layout .innerFooter .main h1 i {
 footer .layout .innerFooter .main p {
     margin: 20px 0;
     font-size: 13px;
+    color: #b2bfe0;
 }
 
 footer .layout .innerFooter .main .links {

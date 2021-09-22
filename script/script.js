@@ -87,13 +87,4 @@ $(() => {
             $('.darkMood').fadeOut();
         }
     })
-
-    // Mobile Nav
-    $('#phoneNavClose').click(mobileNav);
-    $('#MNV').click(mobileNav);
-    $('.mobileNav ul li').click(mobileNav);
-
-    function mobileNav() {
-        $('.mobileNav').fadeToggle();
-    }
 })

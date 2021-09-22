@@ -1,188 +1,94 @@
-<<<<<<< HEAD
-.doDont .inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 2em;
-}
-
-.doDont .inner .orders {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.doDont .inner .orders .order {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.doDont .inner .orders .order p {
-    padding: 10px 30px 0 0;
-    color: var(--pop-text-color);
-    font-weight: 600;
-}
-
-.doDont .inner .orders .order div {
-    position: relative;
-}
-
-.doDont .inner .orders .order div i {
-    position: absolute;
-    font-size: 20px;
-    color: var(--head-third-color);
-    z-index: 3;
-    top: -5px;
-    left: -10px;
-}
-
-.doDont .inner .orders .order div img {
-    width: 80px;
-    border: 3px solid var(--pop-text-color);
-    border-radius: 50%;
-}
-
-.doDont .inner .do .orders {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.doDont .inner .do .orders .order {
-    flex-direction: row-reverse;
-}
-
-.doDont .inner .do .orders .order p {
-    padding: 10px 0 0 30px;
-    color: var(--pop-text-color);
-    font-weight: 600;
-}
-
-.doDont .inner .do .orders .order div i {
-    color: #52c98b;
-    top: -5px;
-    left: auto;
-    right: -10px;
-}
-
-@media only screen and (max-width: 769px) {
-    .doDont .inner .orders,
+    .doDont .inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 2em;
+        color: var(--normal-font-color);
+    }
+    
+    .doDont .inner .orders {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .doDont .inner .orders .order {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    
+    .doDont .inner .orders .order p {
+        padding: 10px 30px 0 0;
+        color: var(--pop-text-color);
+        font-weight: 600;
+    }
+    
+    .doDont .inner .orders .order div {
+        position: relative;
+    }
+    
+    .doDont .inner .orders .order div i {
+        position: absolute;
+        font-size: 20px;
+        color: var(--head-third-color);
+        z-index: 3;
+        top: -5px;
+        left: -10px;
+    }
+    
+    .doDont .inner .orders .order div img {
+        width: 80px;
+        border: 3px solid var(--pop-text-color);
+        border-radius: 50%;
+    }
+    
     .doDont .inner .do .orders {
         display: flex;
-        text-align: center;
-        align-items: center;
-        padding: 0 10px;
+        align-items: flex-start;
+        flex-direction: column;
     }
-    .doDont .inner .orders .order,
+    
     .doDont .inner .do .orders .order {
-        text-align: center;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row-reverse;
     }
-    .doDont .inner .orders .order p,
+    
     .doDont .inner .do .orders .order p {
-        padding: 10px 0 0 0;
+        padding: 10px 0 0 30px;
+        color: var(--pop-text-color);
+        font-weight: 600;
     }
-    .doDont .inner .centerIMG {
-        display: none;
+    
+    .doDont .inner .do .orders .order div i {
+        color: #52c98b;
+        top: -5px;
+        left: auto;
+        right: -10px;
     }
-=======
-.doDont .inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 2em;
-}
-
-.doDont .inner .orders {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.doDont .inner .orders .order {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.doDont .inner .orders .order p {
-    padding: 10px 30px 0 0;
-    color: var(--pop-text-color);
-    font-weight: 600;
-}
-
-.doDont .inner .orders .order div {
-    position: relative;
-}
-
-.doDont .inner .orders .order div i {
-    position: absolute;
-    font-size: 20px;
-    color: var(--head-third-color);
-    z-index: 3;
-    top: -5px;
-    left: -10px;
-}
-
-.doDont .inner .orders .order div img {
-    width: 80px;
-    border: 3px solid var(--pop-text-color);
-    border-radius: 50%;
-}
-
-.doDont .inner .do .orders {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.doDont .inner .do .orders .order {
-    flex-direction: row-reverse;
-}
-
-.doDont .inner .do .orders .order p {
-    padding: 10px 0 0 30px;
-    color: var(--pop-text-color);
-    font-weight: 600;
-}
-
-.doDont .inner .do .orders .order div i {
-    color: #52c98b;
-    top: -5px;
-    left: auto;
-    right: -10px;
-}
-
-@media only screen and (max-width: 769px) {
-    .doDont .inner .orders,
-    .doDont .inner .do .orders {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        padding: 0 10px;
+    
+    @media only screen and (max-width: 769px) {
+        .doDont .inner .orders,
+        .doDont .inner .do .orders {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            padding: 0 10px;
+        }
+        .doDont .inner .orders .order,
+        .doDont .inner .do .orders .order {
+            text-align: center;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        .doDont .inner .orders .order p,
+        .doDont .inner .do .orders .order p {
+            padding: 10px 0 0 0;
+        }
+        .doDont .inner .centerIMG {
+            display: none;
+        }
     }
-    .doDont .inner .orders .order,
-    .doDont .inner .do .orders .order {
-        text-align: center;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .doDont .inner .orders .order p,
-    .doDont .inner .do .orders .order p {
-        padding: 10px 0 0 0;
-    }
-    .doDont .inner .centerIMG {
-        display: none;
-    }
->>>>>>> 6de624b4bb9f98d687c5dda5d66024f6ba3d0fb0
-}
