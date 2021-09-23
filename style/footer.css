@@ -113,6 +113,10 @@ footer .layout .main .colorizing div {
     position: relative;
 }
 
+footer .layout .main .colorizing div p {
+    opacity: 0;
+}
+
 footer .layout .main .colorizing div:after {
     content: attr(titleName);
     text-transform: capitalize;
