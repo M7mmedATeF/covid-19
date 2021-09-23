@@ -53,6 +53,8 @@
     font-size: 2em;
     cursor: pointer;
     transition: 0.3s color ease-in-out;
+    font-family: 'oswald';
+    font-weight: 600;
 }
 
 .mobileNav ul li:hover {
@@ -98,5 +100,38 @@
     }
     100% {
         transform: translate(0, -50%);
+    }
+}
+
+@media only screen and (max-width:376px) {
+    .mobileNav ul {
+        margin-left: 0.7em;
+    }
+    .mobileNav ul li {
+        margin: 0.5em 0;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .mobileNav ul {
+        margin-left: 0.8em;
+    }
+    .mobileNav ul li {
+        font-size: 1.8em;
+    }
+    .mobileNav .clsBTN {
+        top: 0.2em;
+        right: 0.5em;
+        z-index: 101;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .mobileNav ul {
+        margin-left: 0.2em;
+    }
+    .mobileNav ul li {
+        font-size: 1.5em;
     }
 }
