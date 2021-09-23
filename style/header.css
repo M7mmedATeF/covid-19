@@ -70,7 +70,7 @@ header section .left .links {
 }
 
 header section .left .links .linkBTN {
-    color: var(--second-color);
+    color: #fff;
     background-color: var(--pop-text-color);
     padding: 10px 15px;
     border-radius: 25px;
@@ -84,8 +84,7 @@ header section .left .links .linkBTN i {
 }
 
 header section .left .links .linkBTN:hover {
-    color: var(--second-color);
-    background-color: var(--pop-text-color);
+    background-color: var(--pop-hover-color);
 }
 
 header section .left .link {
@@ -95,6 +94,11 @@ header section .left .link {
     font-family: 'Oswald';
     cursor: pointer;
     letter-spacing: 0px;
+    color: var(--pop-text-color);
+}
+
+header section .left .link:hover {
+    color: var(--pop-hover-color);
 }
 
 header section .left .numbers {

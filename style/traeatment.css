@@ -1,7 +1,7 @@
 .traetment {
     min-height: 100vh;
     padding: 0;
-    background-image: linear-gradient(45deg, #2766BB, #2766BB, #2766BB);
+    background-image: linear-gradient(45deg, var(--pop-hover-color), var(--pop-text-color), var(--pop-hover-color));
     color: #fff;
 }
 
@@ -26,7 +26,7 @@
 
 .traetment .layout .innerTreat .left h4 {
     font-weight: 700;
-    color: #73E3ff;
+    color: var(--pop-light-color);
     font-size: 20px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .traetment .layout .innerTreat .right .rightInner {
-    background-color: #1b47a1;
+    background-color: var(--pop-hover-color);
     padding: 2em 3em;
     border-radius: 25px;
 }

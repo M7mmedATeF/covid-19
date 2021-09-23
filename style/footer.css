@@ -98,6 +98,64 @@ footer .layout .copyRight span {
     font-family: 'oswald';
 }
 
+footer .layout .main .colorizing {
+    display: flex;
+    align-items: center;
+}
+
+footer .layout .main .colorizing div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1c54ce;
+    margin: 0 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+footer .layout .main .colorizing div:after {
+    content: attr(titleName);
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: -70%;
+    left: 50%;
+    font-size: 14px;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+
+footer .layout .main .colorizing div:hover:after {
+    opacity: 0.9;
+}
+
+footer .layout .main .colorizing .blue:after {
+    background-color: var(--pop-text-color);
+}
+
+footer .layout .main .colorizing .blue:after {
+    background-color: #2a81ea;
+}
+
+footer .layout .main .colorizing .red:after,
+footer .layout .main .colorizing .red {
+    background-color: #e61f33;
+}
+
+footer .layout .main .colorizing .purble:after,
+footer .layout .main .colorizing .purble {
+    background-color: #e70f62;
+}
+
+footer .layout .main .colorizing .cyan:after,
+footer .layout .main .colorizing .cyan {
+    background-color: #0fe79f;
+}
+
 @media only screen and (max-width: 769px) {
     footer .layout .innerFooter .qLinks h4 {
         margin-top: 20px;

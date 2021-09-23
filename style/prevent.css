@@ -91,7 +91,7 @@
 }
 
 .prevent .innersteps .steps i {
-    color: #52c98b;
+    color: var(--pop-text-color);
     margin-right: 10px;
 }
 

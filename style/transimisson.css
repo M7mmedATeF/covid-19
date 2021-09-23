@@ -10,7 +10,7 @@
 }
 
 .transmission h4 {
-    color: #2a81ea;
+    color: var(--pop-text-color);
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -22,7 +22,7 @@
     font-weight: 900;
     font-family: 'Oswald';
     font-size: 42px;
-    color: #50658E;
+    color: var(--pop-hover-color);
     text-align: center;
 }
 
@@ -50,7 +50,7 @@
 
 .transmission .cards .inner div img {
     width: 100%;
-    border-bottom: 5px solid #2a80eace;
+    border-bottom: 5px solid var(--pop-text-color);
 }
 
 .transmission .cards .inner div h5 {

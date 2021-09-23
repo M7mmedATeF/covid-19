@@ -25,7 +25,7 @@ nav .logo h1 {
 }
 
 nav .logo h1 span i {
-    color: var(--head-third-color);
+    color: var(--pop-text-color);
 }
 
 nav .logo h1 .num19 {
@@ -52,14 +52,13 @@ nav ul li {
 }
 
 nav ul li:last-child {
-    color: var(--second-color);
+    color: #fff;
     background-color: var(--pop-text-color);
     padding: 10px 15px;
     border-radius: 25px;
 }
 
 nav ul li:last-child:hover {
-    color: #fff;
     background-color: var(--pop-hover-color);
 }
 

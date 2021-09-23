@@ -1,5 +1,17 @@
 $(() => {
 
+
+    // Sticky Nav
+    $(document).scroll(() => {
+        if ($(window).scrollTop() > 20) {
+            $('nav').addClass('stickyNav');
+            $('.darkMood').fadeIn();
+        } else {
+            $('nav').removeClass('stickyNav');
+            $('.darkMood').fadeOut();
+        }
+    })
+
     // Variables
     const homeBTNS = [
         { link: $('.homeNAV'), place: "#home", classed: ".homeNAV" },
@@ -76,17 +88,6 @@ $(() => {
             });
         }
     }
-
-    // Sticky Nav
-    $(document).scroll(() => {
-        if ($(window).scrollTop() > 20) {
-            $('nav').addClass('stickyNav');
-            $('.darkMood').fadeIn();
-        } else {
-            $('nav').removeClass('stickyNav');
-            $('.darkMood').fadeOut();
-        }
-    })
 
     // Mobile Nav
     var BTN = $('.mobileNavBTN .MNB');
